@@ -42,7 +42,8 @@ const AuthForm = ({ type }: { type: string}) => {
     })
    
     const onSubmit = async (data: z.infer<typeof formSchema>) => {
-      setIsLoading(true)
+      setIsLoading(true);
+
       try {
         //sign up with appwrite & create plain link
         if(type === 'sign-up') {
@@ -60,7 +61,8 @@ const AuthForm = ({ type }: { type: string}) => {
           }
 
           const newUser = await signUp(userData);
-          setUser(newUser)
+          
+          setUser(newUser);
         }
         if (type === 'sign-in') {
           const response = await signIn({
