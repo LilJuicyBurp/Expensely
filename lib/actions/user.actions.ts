@@ -247,9 +247,6 @@ export const exchangePublicToken = async ({
 
 export const getBanks = async ({ userId}: getBanksProps) => {
     try {
-        console.log('User ID:', userId);
-        console.log('Database ID:', DATABASE_ID);
-        console.log('Bank Collection ID:', BANK_COLLECTION_ID);
         const {database} = await createAdminClient();
 
         const banks = await database.listDocuments(
@@ -291,7 +288,7 @@ export const getBankByAccountId = async ({ accountId}: getBankByAccountIdProps) 
             BANK_COLLECTION_ID!,
             [Query.equal("accountId", [accountId])]
         )
-        
+
         if(bank.total !== 1) return null;
 
         return parseStringify(bank.documents[0]);
