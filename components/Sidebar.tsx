@@ -19,7 +19,7 @@ const Sidebar = ({user }: SiderbarProps) => {
             cursor-pointer flex
             items-center gap-2">
                 <Image
-                    src="/icons/logo.svg"
+                    src="/icons/expenselylogo.svg"
                     width={34}
                     height={34}
                     alt="Expensely logo"

@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   title: "Expensely",
   description: "Expensely is a modern banking platform for everyone.",
   icons: {
-    icon: '/icons/logo.svg'
+    icon: '/icons/expenselylogo.svg'
   }
 };
 
