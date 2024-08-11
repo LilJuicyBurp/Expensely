@@ -21,8 +21,6 @@ Our banking website: https://expensely-delta.vercel.app/sign-in
 
 ![image](https://github.com/user-attachments/assets/1ff558f2-ac62-4da0-92db-3e702560cb58)
 
-![image](https://github.com/user-attachments/assets/ddaebbb3-3b2d-4d53-b1e5-f9026bc81bb1)
-
 ![image](https://github.com/user-attachments/assets/f96f0356-cfc6-4044-8be7-5663db4144df)
 
 ![image](https://github.com/user-attachments/assets/4ed68b1b-b7b1-4f1d-8a38-3699789f988a)
