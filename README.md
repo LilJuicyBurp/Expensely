@@ -17,7 +17,7 @@ bun dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ## Demo
-Our banking website: https://expensely-delta.vercel.app/sign-in
+Our banking website: [https://expensely-delta.vercel.app/sign-in](https://expensely-delta.vercel.app)
 
 ![image](https://github.com/user-attachments/assets/1ff558f2-ac62-4da0-92db-3e702560cb58)
 
